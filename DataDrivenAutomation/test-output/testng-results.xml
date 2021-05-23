@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13249" started-at="2021-05-23T04:06:49Z" finished-at="2021-05-23T04:07:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13249" started-at="2021-05-23T04:06:49Z" finished-at="2021-05-23T04:07:02Z">
+      <class name="com.fpt.testcases.TC_ValidateLoginFunctional">
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="initiateDriverInstance" is-config="true" duration-ms="5840" started-at="2021-05-23T11:06:50Z" finished-at="2021-05-23T11:06:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="tc_validate_login_functional(java.lang.String, java.lang.String)[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="tc_validate_login_functional" duration-ms="355" started-at="2021-05-23T11:06:56Z" data-provider="Excell" finished-at="2021-05-23T11:06:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_validate_login_functional -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="closeDriverInstance" is-config="true" duration-ms="919" started-at="2021-05-23T11:06:56Z" finished-at="2021-05-23T11:06:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+        <test-method status="PASS" signature="initiateDriverInstance()[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="initiateDriverInstance" is-config="true" duration-ms="4007" started-at="2021-05-23T11:06:57Z" finished-at="2021-05-23T11:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverInstance -->
+        <test-method status="PASS" signature="tc_validate_login_functional(java.lang.String, java.lang.String)[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="tc_validate_login_functional" duration-ms="336" started-at="2021-05-23T11:07:01Z" data-provider="Excell" finished-at="2021-05-23T11:07:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_validate_login_functional -->
+        <test-method status="PASS" signature="closeDriverInstance()[pri:0, instance:com.fpt.testcases.TC_ValidateLoginFunctional@6a4f787b]" name="closeDriverInstance" is-config="true" duration-ms="790" started-at="2021-05-23T11:07:01Z" finished-at="2021-05-23T11:07:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverInstance -->
+      </class> <!-- com.fpt.testcases.TC_ValidateLoginFunctional -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
